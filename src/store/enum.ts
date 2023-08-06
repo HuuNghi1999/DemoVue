@@ -1,0 +1,17 @@
+export enum RootMutations {
+	UPDATE_VERSION = "UPDATE_VERSION",
+	UPDATE_LOADING = "UPDATE_LOADING",
+}
+
+export enum AuthMutations {
+	UPDATE_ACCOUNT = "UPDATE_ACCOUNT",
+	UPDATE_LOGGED = "UPDATE_LOGGED",
+	UPDATE_ERROR = 'UPDATE_ERROR'
+}
+
+export enum AuthActions {
+	LOGIN = "LOGIN",
+	LOGOUT="LOGOUT",
+	REGISTER = "REGISTER",
+	FETCH_USER = "FETCH_USER",
+}
